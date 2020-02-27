@@ -1,4 +1,4 @@
-# Intro to Command line interface 
+ Intro to Command line interface 
 
 ![image alt](https://media.giphy.com/media/vAWN2mjW9dSLu/giphy.gif)
 
@@ -53,6 +53,14 @@
 
 ![image alt](https://i.imgur.com/vn7U2yN.gif)
 
+
+- [`code some-file`](https://code.visualstudio.com/docs/editor/command-line)
+> opens the target file with visual studio code.
+- After openning the editor write something in the `new-file`, and then make sure to save it by hittinh `ctrl + s`.
+
+![image alt](https://i.imgur.com/KRLGlsW.gif)
+
+
 - [`cat`](http://www.linfo.org/cat.html) - concatenate
 > prints the file's content onto the terminal.
 
@@ -60,7 +68,13 @@
 
 ![image alt](https://i.imgur.com/tTl165x.gif)
 
-- `cd ..` - all directories in linux have `..`
+- `cd .` - all directories in linux have `.`
+> the `.` is the a reference for the current directory, so when you do `cd .` what you essentially told the computer to do is change directory to the current directory :sweat_smile:.
+<!-- > technically -->
+
+![image alt](https://imgur.com/kSte5uf.gif)
+
+- `cd ..` - all directories in linux also have `..`
 > change to the parent directory of the current directory or go back a directory.
 
 ![image alt](https://i.imgur.com/6ZDBkAf.gif)
@@ -70,12 +84,7 @@
 
 ![image alt](https://i.imgur.com/JZiA0Zp.gif)
 
-- [`code some-file`](https://code.visualstudio.com/docs/editor/command-line)
-> opens the target file with visual studio code.
-
-![image alt](https://i.imgur.com/KRLGlsW.gif)
-
-- [`code .`](https://code.visualstudio.com/docs/editor/command-line) - `.` one dot in linux translates to current directory.
+- [`code .`](https://code.visualstudio.com/docs/editor/command-line) - again `.` one dot in linux translates to current directory.
 > so here we are saying open the current directory with visual studio code.
 
 ![image alt](https://i.imgur.com/9CtiDIo.gif)
